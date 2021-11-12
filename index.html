@@ -1,0 +1,23 @@
+<!--
+    html에서 script 선언 위치 및 방식에 따른 실행 순서
+    head - fetching -> executing -> parsing HTML
+    body - parsing HTML -> fetching -> executing
+    head + asny -> parsing HTML -> block    -> parsing HTML
+                   fetching         excuting
+    head + defer -> parsing HTML -> excuting 
+                    fetching
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="variable.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
