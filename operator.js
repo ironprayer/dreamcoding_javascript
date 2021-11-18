@@ -142,6 +142,6 @@ for( i = 3; i > 0; i-- ){
 
 for (let i = 3; i > 0; i = i - 2){
     // inline variable declaration
-    console.log(`inline variable for: ${i}`);
+    console.log(`inline variable for: ${i}`)
 }
 
