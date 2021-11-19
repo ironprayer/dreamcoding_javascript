@@ -44,6 +44,7 @@ class User {
         this.firstName= firstName;
         this.lastName = lastName;
         this.age = age;
+        console.log(`type of age : ${typeof this.age}`);
     }
 
     get age() {
